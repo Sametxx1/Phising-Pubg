@@ -1,9 +1,9 @@
 from flask import Flask, request, render_template_string
 
 app = Flask(__name__)
-app.secret_key = 'supersecretkey123'  # Güvenlik için rastgele bir anahtar kullanın
+app.secret_key = 'supersecretkey123'  
 
-# HTML şablonu (maurl.html içeriği buraya gömülüyor)
+# SAMETHAN #Ariva 
 PAGE_TEMPLATE = """
 <!DOCTYPE html>
 <html lang="tr">
